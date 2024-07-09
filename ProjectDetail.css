@@ -1,0 +1,114 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ccc;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 0.5rem;
+}
+
+.social-icons img {
+    height: 2rem;
+    width: auto;
+    filter: brightness(0.8);
+    transition: filter 0.2s ease-in-out;
+}
+
+.social-icons a:hover img {
+    filter: brightness(1);
+}
+
+/* Portfolio Container Styles */
+
+.portfolio-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.welcome-message {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.welcome-message h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-screenshots img {
+    max-width: 300px;
+    height: auto;
+    margin: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    object-fit: cover;
+    display: block; 
+}
+
+.project-screenshots img:hover {
+    transform: scale(1.05);
+}
